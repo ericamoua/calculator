@@ -1,22 +1,61 @@
+body {
+    background-color: rgb(99, 69, 30);
+}
 header {
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    color:#26a69a;
 }
 .integers-container {
     display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        gap: 0px 0px;
-}
-
-.key-calc {
-    background-color:  burlywood;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    width: 50%;
+    height:300px;
 }
 
 .cal-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.answers {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: wheat;
+}
+
+.dabin {
+    width: 30%;
+    height:30%;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 50%;
+    height: 50%;
+    margin-top: 15px;
+}
+
+.vol-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.bark {
     justify-content: center;
     display: flex;
-    height: 400px;
-    margin-top: 10%;
+    font-size: large;
+    color: #26a69a;
 }
